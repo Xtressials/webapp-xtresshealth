@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/static/media/openeew_logo.0e7f64c0.svg"
   },
   {
-    "revision": "eb08db039e253b769b0f3827da757991",
+    "revision": "f4db1abf3d6585c81d8def8a8f644e55",
     "url": "/index.html"
   }
 ];
