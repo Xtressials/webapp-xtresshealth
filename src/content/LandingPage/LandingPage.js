@@ -65,7 +65,7 @@ const LandingPage = () => {
             <Tab {...props.tab} label="Design">
               <div className="bx--grid bx--grid--no-gutter bx--grid--full-width">
                 <div className="bx--row landing-page__tab-content">
-                  <div className="bx--col-lg-16">
+                  <div className="bx--col-lg-7">
                     <h2 className="landing-page__subheading">
                       Why XtressHealth?
                     </h2>
@@ -85,7 +85,7 @@ const LandingPage = () => {
             <Tab {...props.tab} label="Develop">
               <div className="bx--grid bx--grid--no-gutter bx--grid--full-width">
                 <div className="bx--row landing-page__tab-content">
-                  <div className="bx--col-lg-16">
+                  <div className="bx--col-lg-7">
                     <h2 className="landing-page__subheading">
                       Why XtressHealth?
                     </h2>
@@ -107,9 +107,9 @@ const LandingPage = () => {
       </div>
       <InfoSection heading="The Principles" className="landing-page__r3">
         <InfoCard
-          heading="XtressHealth is Human-Centric"
+          heading="XtressHealth is Open"
           body=""
-          icon={<PersonFavorite32 />}
+          icon={<Globe32 />}
         />
         <InfoCard
           heading="XtressHealth is Modular"
@@ -117,9 +117,9 @@ const LandingPage = () => {
           icon={<Application32 />}
         />
         <InfoCard
-          heading="XtressHealth is Consistent"
+          heading="XtressHealth is Human-Centric"
           body=""
-          icon={<Globe32 />}
+          icon={<PersonFavorite32 />}
         />
       </InfoSection>
     </div>
