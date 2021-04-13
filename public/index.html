@@ -25,6 +25,19 @@
     <title>XtressTwins</title>
   </head>
   <body>
+    <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "12fb5b87-9c39-404f-9e56-ad047b901d2a", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "6ec6baef-fe6f-407f-85f8-29cacb1f027b", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
